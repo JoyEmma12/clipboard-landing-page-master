@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+:root {
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);  
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: white;
+}
+main {
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    background-image: url("bg-header-desktop.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.head1 {
+    text-align: center;
+}
+.head1 h1 {
+    padding-bottom: 20px;
+    color: var(--Dark-Grayish-Blue);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+.head1 p {
+    color: var(--Grayish-Blue);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.btn {
+    text-align: center;
+    padding-top: 3%;
+}
+button {
+    border: none; 
+    padding: 15px 40px;
+    /*margin: 15px;*/
+    border-radius: 25px;
+
+}
+.ios {
+   background-color: var(--Strong-Cyan); 
+   color: white;
+   box-shadow: 0 2px 1px 1px hsl(171, 66%, 44%);
+   
+}
+.ios:hover {
+    background-color: hsl(171, 66%, 50%);
+    cursor: pointer;
+}
+.mac {
+    background-color: var(--Light-Blue);
+    color: white;
+    box-shadow: 0 2px 1px 1px hsl(233, 100%, 69%);
+}
+.mac:hover{
+    background-color: hsl(233, 100%, 72%);
+    cursor: pointer;
+}
+.head2 {
+    padding-top: 8%;
+}
+.head2 h2 {
+    color: var(--Dark-Grayish-Blue);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+.head2 p {
+    color: var(--Grayish-Blue);
+    padding-top: 1%;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.container {
+    padding-top: 5%;
+}
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.33%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width:58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+h3 {
+    color: var(--Dark-Grayish-Blue);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+p {
+    color: var(--Grayish-Blue);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+/*
+.leftside-col {
+    margin-left: 30%;
+}
+.rightside-col {
+    margin-left: 15%;
+}*/
+.text1 {
+    padding-bottom: 10%;
+}
+.text2 {
+    padding-bottom: 10%;
+}
+.text3 {
+    padding-bottom: 10%;
+}
+.container1 {
+    text-align: center;
+    margin: 10%;
+}
+.text4 img,
+.text5 img,
+.text6 img {
+    padding-bottom: 5%;
+}
+.text4 h3,
+.text5 h3,
+.text6 h3 {
+    padding-bottom: 5%;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+.text4 p,
+.text5 p,
+.text6 p {
+    text-align: center;
+} 
+
+
+.image1 img {
+  width: 90%;
+}
+.access {
+    text-align: center;
+}
+.image2 {
+    text-align: center;
+}
+.image2 img {
+    width: 50%;
+}
+.supercharge {
+    text-align: center;
+}
+.supercharge p {
+    padding-top: 1%;
+}
+.logo2 {
+    text-align: center;
+}
+.logo2 img {
+    margin: auto 3%;
+}
+.clipboard {
+    text-align: center;
+    padding-top: 10%;
+}
+.clipboard p {
+    padding-top: 2%;
+}
+.ilogo  {
+    width: 30%;
+}
+.container2 {
+    padding-top: 5%;
+    margin: auto 8%;
+}
+ul li {
+    list-style: none;
+    color: var(--Dark-Grayish-Blue);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+ul li:hover {
+    color: var(--Strong-Cyan);
+    cursor: pointer;
+}
+.col-2 img {
+    margin: auto 5%;
+}
+.col-2 img:hover {
+    background-color: var(--Strong-Cyan);
+    
+}
+@media screen and (max-width: 700px) {
+    .col-6 {
+        width: 100%;
+        margin: 0;
+    }
+    .col-4 {
+        width: 100%;
+        margin: 0;
+    }
+    .col-2 {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    ul li {
+        padding: 3%;
+    }
+    .ilogo {
+        width: 20%;
+    }
+    .logo2 {
+        width: 50%;
+        margin: auto; 
+    }
+    .logo2 img {
+        padding: 18%;
+    }
+    .clipboard h3 {
+        font-size: 36px;
+        padding: 15%;
+    }
+    .btn{
+       width: 50%;
+       margin: auto;
+    }
+    button{
+        margin: 4%;
+    }
+    .leftside-col , 
+    .rightside-col {
+      margin: auto 20px;  
+    }
+    .text1,
+    .text2,
+    .text3 {
+        text-align: center;
+        padding: 8%;
+    }
+    .image1 {
+       text-align: center;
+    }
+    .access {
+        padding: 15%;
+    }
+    .supercharge {
+        padding: 15%;
+    }
+    .text4,
+    .text5,
+    .text6 {
+        padding: 10%;
+    }
+}
